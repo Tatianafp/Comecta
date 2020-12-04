@@ -9,14 +9,6 @@ Comecta foi o nome que resolvemos dar a interface de interação com o usuário 
 Na página inicial da interface encontram-se quatro botões, cada qual referente a umas das opreações CRUD que são possíveis de se realizar em nosso banco de dados. após selecionar qual operação se deseja realizar, o usuário então escolhe em qual das entidades ele deseja realizar tal operação. Nas operações de criar, atualizar e deletar dados são dadas três opções de tabelas que podem ser alteradas, todas elas possuem relações entre si. Já a operação de buscar e ler dados do banco de dados possui uma opção a mais: ao clicar no botão 
 "lojas por perto", aparecerá na tela uma lista dos estabelecimentos próximos ao usuário selecionado a partir do dropdown, tal tabela foi gerada a partir da implementação de views. 
 
-### Inserindo novos dados
-
-### Buscando dados
-
-### Atualizando dados
-
-### Deletando dados
-
 ## Como executar o código
 
 Para executar o código é necessário ter o Pyhton instalado em seu computador, junto com as bibliotecas Dash (pip install dash) e e MySQL.Connector (pip install mysql-connector-python).
