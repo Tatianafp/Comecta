@@ -1,0 +1,242 @@
+body {
+    background:  #c5e9ee;
+}
+
+.row {
+    text-align: center;
+}
+
+.card{
+    width: 60%;
+    height: auto;
+    /*height: 90vh;*/
+    display:inline-block;
+    vertical-align: middle;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.card-output{
+    width: 80%;
+    height: auto;
+    display:inline-block;
+    vertical-align: middle;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.card-csv{
+    width: 90%;
+    padding: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.card-title{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    margin-top: 5%;
+    color: #000000;
+}
+
+.comando{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 47px;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 13%;
+    color: #000000;
+}
+
+.detalhe-comando{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 15px;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 13%;
+    color: #000000;
+}
+
+.input {
+    width: 75%;
+    font-size: 15px;
+    
+}
+
+#input-nota-avaliacao, 
+#input-nota-avaliacao-update {
+    width: 73%;
+    margin-left: 8%;
+    font-size: 15px;
+    margin-bottom: 5%;
+}
+
+#input-usuario-avaliacao, 
+#input-loja-avaliacao,
+#input-update-usuario, 
+#input-update-loja, 
+#input-delete-usuario, 
+#input-delete-loja,
+#input-read-usuario,
+#input-read-loja,
+#input-read-view {
+    width: 100%;
+    margin-left: 13%;
+    font-size: 15px;
+}
+
+#input-update-avaliacao1, 
+#input-update-avaliacao2, 
+#input-delete-avaliacao1, 
+#input-delete-avaliacao2 {
+    width: 100%;
+    margin-left: 13%;
+    margin-top: 5%;
+    font-size: 15px;
+}
+
+.card-subtitle{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+.card-pdf-box{
+
+    background: #FFFFFF;
+    border: 1px dashed #6C63FF;
+    box-sizing: border-box;
+    margin-left: 30px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.card-logo-pdf{
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.choose-button{
+    width: 172px;
+    height: 41px;
+    text-align: center;
+    background: #6C63FF;
+    border-radius: 20px;
+    margin-bottom: 30px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.text-pdf{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+}
+
+.text-act{
+    font-family: Raleway;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+}
+
+.text-ocu{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+}
+
+#base {
+    min-height: 43vh;
+    height: auto;
+    
+}
+
+#output {
+    height: auto;
+}
+
+.menu {
+    align-self: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.update .Button,
+.read .Button
+{
+    margin-top: 5%;
+    width: 75%;
+}
+
+.delete .Button{
+    margin-top: 5%;
+    width: 75%;
+}
+
+.create .Button {
+    margin-top: 10%;
+   
+}
+
+.Button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #e7e7e7;
+    width: 75%;
+    height: auto;
+    margin: 1%;
+    font-size: 90%;
+}
+
+.Button:hover {
+    border: 2px solid #e7e7e7;
+    background-color: #e7e7e7;
+    /*color: white;*/
+    
+}
