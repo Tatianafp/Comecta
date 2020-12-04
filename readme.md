@@ -13,10 +13,6 @@ Na página inicial da interface encontram-se quatro botões, cada qual referente
 
 Para executar o código é necessário ter o Pyhton instalado em seu computador, junto com as bibliotecas Dash (pip install dash) e e MySQL.Connector (pip install mysql-connector-python).
 
-Para criar o banco de dados, primeiro utilize os códigos presentes na pasta "mysql". Primeiro crie o banco de dados e suas tabales rodando o código "". Depois insira as instâncias rodando o código "". As partes referentes as implementações da View e da Procedure então presente no final do segundo código mencionado.
+Para criar o banco de dados, primeiro utilize os códigos presentes na pasta "mysql". Primeiro crie o banco de dados e suas tabales rodando o código "Script_MR.sql". Depois insira as instâncias rodando o código "Incluir_Requisições_SQL_Projeto_Final.sql". As partes referentes as implementações da View e da Procedure então presente no final do segundo código mencionado.
 
 Para rodar a interface de interação com o usuário, basta rodar o comando "python app.py" no terminal, diretamente na pasta onde se encontram os arquivos presentes neste repositório. 
-
-## View
-
-## Procedure
