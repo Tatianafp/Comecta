@@ -7,7 +7,7 @@ Created on Mon Nov 30 09:38:57 2020
 import mysql.connector
 import numpy as np
 from datetime import date, datetime, timedelta
-pas = '@Adm17015'
+pas = #insira sua senha do MySQL aqui
 cnx = mysql.connector.connect(user='root',password= pas , host='127.0.0.1', port=3306 ,database='mydb')
 curso = cnx.cursor()
 
